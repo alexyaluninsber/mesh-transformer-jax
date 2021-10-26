@@ -26,8 +26,9 @@
 
   "train_set": "mimic3.train.index",
    
-  "val_set": "mimic3.dev.index",
-
+   "val_set": {
+      "mimic": "mimic3.val.index"
+   },
   "eval_harness_tasks": [
     "lambada",
     "piqa",
